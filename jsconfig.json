@@ -1,7 +1,16 @@
 {
   "compilerOptions": {
+    "jsx": "react",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "target": "esnext",
+    "lib": ["dom", "es2015", "es2017"],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./app/*"]
     }
-  }
+  },
+  "include": ["./app/**/*"]
 }
